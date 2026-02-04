@@ -37,3 +37,15 @@ It is an authentication method where a user logs in once and gets access to mult
     
     6️⃣ Needs Strong Security Controls
     SSO must use MFA (multi-factor authentication). Without it, security risk increases.
+
+
+# Active Directory
+  Active Directory is a Microsoft directory service used to centrally manage users,computer,groups,and security policies in a network domain.
+
+# Active Benefits...
+  * Central Control
+  * Easy user management
+  * Security policies
+  * SSO  Support 
+  * Permission Control 
+  * Scalable
