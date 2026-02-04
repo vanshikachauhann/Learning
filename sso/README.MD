@@ -49,3 +49,9 @@ It is an authentication method where a user logs in once and gets access to mult
   * SSO  Support 
   * Permission Control 
   * Scalable
+   
+# API(Application Programming Interface)
+  APIs, or Application Programming Interfaces, are the invisible backbone of modern software development. They enable application and systems to communicate and share data efficiently.
+
+       * Enable seamless interaction between applications, platforms, and services.
+       * Power everyday features such as weather updates, payments, and e-commerce checkouts.
