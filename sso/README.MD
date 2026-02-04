@@ -9,7 +9,7 @@ It is an authentication method where a user logs in once and gets access to mult
      * Server sends a trust token back to apps
      * User can now access all connected apps
 
-     # Advantages of SSO
+# Advantages of SSO
 
             * Only one login needed
             * Saves time
