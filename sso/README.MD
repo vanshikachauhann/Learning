@@ -17,3 +17,23 @@ It is an authentication method where a user logs in once and gets access to mult
             * Fewer passwords to remember
             * Centralized security control
             * Easy for companies to manage users
+
+# Disadvantages of SSO
+
+    1️⃣ Single Point of Failure
+    If the SSO server goes down, users cannot log in to any connected applications.
+    
+    2️⃣ High Risk if Account is Compromised
+    If someone hacks the SSO login, they can access all linked systems, not just one.
+    
+    3️⃣ Setup is Complex
+    Implementing SSO in an organization needs proper configuration and technical knowledge.
+    
+    4️⃣ Higher Initial Cost
+    Enterprise SSO solutions may cost money to set up and maintain.
+    
+    5️⃣ Dependency on Central System
+    All apps depend on one identity provider — if it has issues, everything is affected.
+    
+    6️⃣ Needs Strong Security Controls
+    SSO must use MFA (multi-factor authentication). Without it, security risk increases.
