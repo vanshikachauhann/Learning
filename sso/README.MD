@@ -3,7 +3,7 @@ It is an authentication method where a user logs in once and gets access to mult
 
 #   How SSO Works (Simple Flow)
 
-     * User tries to open an application<br>
+     * User tries to open an application
      * User logs in once<br>
      * Server verifies identity<br>
      * Server sends a trust token back to apps<br>
