@@ -1,1 +1,2 @@
-
+# EC2 Instance Automactic start and stop using Aws lambda......
+   ### Step1. Ec2 instance
