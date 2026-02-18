@@ -1,14 +1,77 @@
 # What is DynamoDB 
-   Dynamodb store data as items in table with each items represented as a JSON like document consisting of Key value pairs.
-   ## (a) Serverless : 
-    No need for server provisioning software installation,Maintanance,or patching.
-   ## (b) Automatic Scaling :
-   Instantly scales up or down based on demand with no manual adjustments needed.
-   ## (c) Zero Downtime :
-    Provides Continuous availability without maintenance windows.
-   ## (d) On-Demand Pricing :
-    Pay only for the read/write requests used,ideal for fluctuating workloads.
-   ## (e) Idle Cost Savings : 
-    Scales down to zero during inactivity,so their's no cost when tables have no traffic.
+   Dynamodb is a serverless NOSQL data by AWS that provide fast and scalable key value and document data storage.
+   # Key Features 
+     * Serverless  -- no server setup
+     * Very fast   -- (millisecond response)
+     * Auto Scaling 
+     * Highly available
+     * Fully managed by AWS 
+     * Backup & restore support
+
+# Data Model
+  Dynamodb uses:
+  * Tables
+  * Items(rows)
+  * Attributes(columns)
+
+ # Primary Key 
+      Every table must have a primary key:
+      1. Partition key 
+      2. Composite key ( Partition key + Sort key )
+
+
+# Opertions
+  . Putitem - insert 
+  . Getitem - read
+  . Updateitem  - update
+  . Deleteitem - delete
+  .Query - search by key
+  . Scan - read full table
+
+  ##### Dynamodb vs RDS ..
+      Dynamodb = Nosql + serverless + auto scale
+      RDS = SQL +relational +managedDB server
+
+   # ✅ Security of DynamoDB Table
+
+         Tables are secured using:
+         IAM policies
+         Roles
+         Encryption at rest
+         Encryption in transit
+         VPC endpoints 
+
+   # ✅ Backup & Restore
+
+            Enable point-in-time recovery
+            Create on-demand backup
+            Restore table anytime  
+
+ # ✅ Streams (Real-time changes)
+
+         DynamoDB Streams track:
+                  Insert
+                  Update
+                  Delete
+         Used with Lambda for triggers.
+
+ # ✅ TTL (Time To Live)
+
+         Auto delete items after a time.
+               Example:
+                        Session expires after 1 hour 
+
+# ✅ How You Create Table
+
+         You can create via:
+               AWS Console
+               AWS CLI
+               Python boto3
+               CloudFormation
+               Terraform
+
+               
+                        
+    
                       
 
