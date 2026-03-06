@@ -1,3 +1,7 @@
 # Mini project list ....
-   #### 1. ✅ How to Create S3 Bucket using AWS CLI
-   
+   #### EC2...
+   Launching EC2 instances
+   Stopping instances
+  Terminating instances
+
+  ### Iam...
