@@ -1,5 +1,5 @@
 # Mini project list ....
-         1. create using Aws CLI--- bucket, user, instances
+         1.Create using Aws CLI--- bucket, user, instances
          2.Deleting all data using python... Bucket, users, instances
          3.Create dynamodb table from Aws console. 
          4.S3 triggering lambda to update dynamodb
