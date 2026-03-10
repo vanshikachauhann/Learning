@@ -27,9 +27,9 @@
      Send notifications to Amazon EventBridge for all events in this bucket
          On(-)
 
-  # step2.
-         Step function....now create static machine
-         After that-----
+ # step2.
+     Step function....now create static machine
+       After that-----
                code--
                   {
         "Comment": "Notification Flow using Lambda + Choice",
@@ -78,7 +78,7 @@ than,Replace the source name by ARN lambda1,lambda2,lambda3
 # step3.
     ## Create function lambda1.
     (a) lambda1 ---- s3 trigger
-         (b) code---
+       (b) code---
                 import json
                 import boto3
                 import os
