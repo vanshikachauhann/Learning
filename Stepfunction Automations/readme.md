@@ -28,10 +28,10 @@
          On(-)
 
  # step2.
-     Step function....now create static machine
-       After that-----
-               code--
-                  {
+  ## Step function....now create static machine
+      After that-----
+      code--
+          {
         "Comment": "Notification Flow using Lambda + Choice",
         "StartAt": "Lambda1",
         "States": {
