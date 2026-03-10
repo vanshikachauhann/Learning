@@ -29,8 +29,8 @@
 
  # step2.
   ## Step function....now create static machine
-      After that-----
-      code--
+  #### After that-----
+  ##### code--
           {
         "Comment": "Notification Flow using Lambda + Choice",
         "StartAt": "Lambda1",
