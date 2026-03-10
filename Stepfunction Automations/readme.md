@@ -76,7 +76,7 @@ than,Replace the source name by ARN lambda1,lambda2,lambda3
 <img width="367" height="203" alt="image" src="https://github.com/user-attachments/assets/4b2cfa69-2f30-4ffa-899d-90291e98a76e" />
 
 # step3.
-    ## Create function lambda1.
+### Create function lambda1.
     (a) lambda1 ---- s3 trigger
        (b) code---
                 import json
